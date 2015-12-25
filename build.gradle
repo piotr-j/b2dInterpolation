@@ -73,7 +73,7 @@ project(":html") {
         compile "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
         compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion:sources"
         compile "com.badlogicgames.gdx:gdx-box2d-gwt:$gdxVersion:sources"
-        compile "com.kotcrab.vis:vis-ui:0.8.2-SNAPSHOT:sources"
+        compile "com.kotcrab.vis:vis-ui:0.8.2:sources"
     }
 }
 
@@ -84,7 +84,7 @@ project(":core") {
     dependencies {
         compile "com.badlogicgames.gdx:gdx:$gdxVersion"
         compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
-        compile "com.kotcrab.vis:vis-ui:0.8.2-SNAPSHOT"
+        compile "com.kotcrab.vis:vis-ui:0.8.2"
     }
 }
 
